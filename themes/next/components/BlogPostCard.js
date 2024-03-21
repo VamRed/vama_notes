@@ -38,7 +38,7 @@ const BlogPostCard = ({ post, index, showSummary }) => {
             {...aosProps}
             href={url}
             passHref
-            className={`cursor-pointer text-3xl ${showPreview ? 'text-center' : ''} leading-tight text-gray-700 dark:text-gray-100 hover:text-blue-500 dark:hover:text-blue-400`}>
+            className={`cursor-pointer text-1xl ${showPreview ? 'text-center' : ''} leading-tight text-gray-700 dark:text-gray-100 hover:text-blue-500 dark:hover:text-blue-400`}>
 
             <NotionIcon icon={post.pageIcon} /> <span className='menu-link'>{post.title}</span>
 
